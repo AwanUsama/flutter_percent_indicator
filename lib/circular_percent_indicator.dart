@@ -134,7 +134,7 @@ class CircularPercentIndicator extends StatefulWidget {
     if (linearGradient != null && progressColor != null) {
       throw ArgumentError('Cannot provide both linearGradient and progressColor');
     }
-    _progressColor = progressColor ?? Colors.green;
+    _progressColor = progressColor ?? Colors.orange;
 
     assert(startAngle >= 0.0);
     if (percent < 0.0 || percent > 1.0) {
